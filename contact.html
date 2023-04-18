@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>My Favourite Holiday Destinations</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Contact us for more information">
+    <meta name="keywords" content="Holiday, contact, Hot country, beach holiday, travel">
+
+    <meta http-equiv="last modified" content="Monday 17 Nov 2015">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/gif" sizes="16x16">
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="images/logo.png" alt="logo">
+        <h1>Contact Us</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lanzerote.html">Lanzarote</a></li>
+            <li><a href="mauritius.html">Mauritius</a></li>
+            <li><a href="amsterdam.html">Amsterdam</a></li>
+            <li><a href="prices.html">Price Comparison</a></li>
+            <li id="active"><a href="contact.html">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        input[type="checkbox"] {width: 15px;}
+        input[type="radio"] {width: 10px;}
+    </style>
+
+    <main id="maincontent">
+        <section>
+            <h3>Please feel free to fill out this form for further travel advice</h3>
+            <form action="http:/foo.com" method="get">
+                <label for="first_name">First Name:<span class="required">*</span></label>
+                <input type="text" name="first_name" id="first_name" autofocus required><br>
+                <label for="last_name">Last Name:<span class="required">*</span></label>
+                <input type="text" name="last_name" id="last_name" autofocus required><br>
+                <label for="phone">Phone Number:</label>
+                <input type="text" name="phone" id="phone"><br>
+                <label for="email">Email:<span class="required">*</span></label>
+                <input type="email" name="email" id="email" placeholder="johnsmith@example.com"><br>
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" name="gender" value="male"> Male
+                <input type="radio" id="gender" name="gender" value="female"> Female
+                <input type="radio" id="gender" name="gender" value="other" checked> Other <br>
+                <label for="option1"> Preffered method of contact: </label>
+            <fieldset>
+                <input type="checkbox" id="sendemail" name="sendemail" value="sendemail" checked> Email <br>
+                <input type="checkbox" class="margin1" id="hearr" name="phonetext" value="phonetext" checked> Phone Text <br>
+                <input type="checkbox" class="margin1" id="hear" name="phonecall" value="phonecall" checked> Phone Call <br>
+                <input type="checkbox" class="margin1" id="hear" name="add" value="add" checked> Other <br>
+            </fieldset><br>
+            <label for="message">Further comments or feedback  :  </label>
+            <textarea cols="40" rows="6"
+            id="message" name="message" placeholder="Please use less than 200 characters" data-maxlength="200"></textarea>
+            <input type="submit" name="submit" id="button" value="Submit">
+            <input type="reset" name="reset" id="reset">
+            </form>
+            <p style="margin-left: 138px"><span class="required">*</span> <em> indicates a rquired field </em></p>
+
+        </section>
+    </main>
+
+    <aside>
+        <h2>My Favourite countries I have visited</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="lanzerote.html">Lanzarote</a></li>
+            <li><a href="mauritius.html">Mauritius</a></li>
+            <li><a href="amsterdam.html">Amsterdam</a></li>
+        </ul>
+        <h3>Popular City Breaks</h3>
+        <ol>
+            <li>Paris, France</li>
+            <li>London, England</li>
+            <li>Barcelona, Spain</li>
+            <li>Rome, Italy</li>
+            <li>Amsterdam, Netherlands</li>
+            <li>Prague, Czech Republic</li>
+            <li>Berlin, Germany</li>
+            <li>Istanbul, Turkey</li>
+            <li>New York City, USA</li>
+            <li>Madrid, Spain</li>
+        </ol>
+        <h3>Popular Beach Holidays</h3>
+        <ol>
+            <li>Miami Beach, Florida</li>
+            <li>Waikiki Beach, Hawaii</li>
+            <li>Santa Monica Beach, California</li> 
+            <li>Cancun, Mexico</li>
+            <li>Negril, Jamaica</li>
+            <li>Boracay, Philippines</li> 
+            <li>Cape Town, South Africa</li>
+            <li>Koh Samui, Thailand</li>
+            <li>Punta Cana, Dominican Republic</li>
+            <li>Phuket, Thailand</li>
+        </ol>
+        <h3>Popular Skiing Holidays</h3>
+        <ol>
+            <li>Vail, Colorado, USA</li>
+            <li>Whistler, British Columbia, Canada</li>
+            <li>Zermatt, Switzerland</li>
+            <li>Chamonix, France</li>
+            <li>St. Anton, Austria</li>
+            <li>Cortina d'Ampezzo, Italy</li>
+            <li>Alta, Utah, USA</li>
+            <li>Kitzbuhel, Austria</li>
+            <li>Jackson Hole, Wyoming, USA</li>
+            <li>Tignes, France</li>
+        </ol>
+        <h3>Popular Family Holidays</h3>
+        <ol>
+            <li>Cruise Vacation</li>
+            <li>Beach Vacation</li>
+            <li>Ski Vacation</li>
+            <li>Theme Park Vacation</li>
+            <li>Road Trip Vacation</li>
+            <li>Camping Vacation</li>
+            <li>All-Inclusive Vacation</li>
+            <li>Cultural Vacation</li>
+            <li>Disney Vacation</li>
+            <li>National Park Vacation</li>
+        </ol>
+        <h3>Popular Cruise Holidays</h3>
+        <ol>
+            <li>Caribbean Cruises</li>
+            <li>Alaska Cruises</li>
+            <li>Europe Cruises</li>
+            <li>Mediterranean Cruises</li>
+            <li>Bermuda Cruises</li>
+            <li>Hawaii Cruises</li>
+            <li>Mexican Riviera Cruises</li>
+            <li>South Pacific Cruises</li>
+            <li>Asia Cruises</li>
+            <li>Australia/New Zealand Cruises</li>
+        </ol>
+    </aside>
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="lanzerote.html">Lanzarote</a></li>
+            <li><a href="mauritius.html">Mauritius</a></li>
+            <li><a href="amsterdam.html">Amsterdam</a></li>
+            <li><a href="prices.html">Price Comparison</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <small>&copy; Cian Billings Travel 2023</small>
+    </footer>
+</body>
+</html>
