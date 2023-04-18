@@ -202,3 +202,7 @@ section.priceintro {
     padding: 2px;
     text-decoration: dashed;
 }
+section.map {
+    border: 2px solid black;
+    padding: 2px;
+}
