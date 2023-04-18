@@ -206,3 +206,5 @@ section.map {
     border: 2px solid black;
     padding: 2px;
 }
+input[type="checkbox"] {width: 15px;}
+input[type="radio"] {width: 10px;}
